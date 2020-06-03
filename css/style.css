@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: #12a8ff !important;
+}
+.nav-link{
+    color:black !important;
+    /* font-weight: bold !important; */
+}
+.home, .CATEGORIES{
+    color: white !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+ .dropdown-item{
+    background-color: #12a8ff !important;
+    color: black !important;
+    /* font-weight: bold !important; */
+} 
+.dropdown-item:hover{
+ 
+color: white !important;
+}
+.dropdown-menu{
+    background-color: #12a8ff !important;
+}
+.fa {
+   color: white !important;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+.sec1{
+    width: 100%;
+    height: 400px;
+}
+.d-block{
+    width: 100%;
+    height: 400px;
+}
+.carousel-caption{
+    color:black !important;
+}
+@media only screen and (max-width:1000px){
+    .sec1{
+        height: 300px !important; }
+    .d-block{
+        height: 300px !important;
+    }  
+    h1{
+        margin-top: 20px;
+        text-align: left;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:500px){
+    .sec1{
+        height: 200px !important; }
+    .d-block{
+        height: 200px !important;
+    }  
+    h1{
+        font-size: 18px;
+    }
+}
+.carousel-control-next:hover{
+    background-color: black !important;
+}
+.carousel-control-prev:hover{
+    background-color: black !important;
+}
+h1{
+    background-color: #12a8ff;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+        margin-top: 20px;
+    text-align: center;
+}
+.four-parts p{
+   margin: 2% 10%;
+   text-align: justify;
+}
+.four-parts{
+    width: 100%;
+    height: 300px;
+    /* border:1px solid black; */
+}
+.four-parts div{
+    width: 25%;
+     height: 100%; 
+    /* border:1px solid black; */
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+@media only screen and (max-width:768px){
+    .four-parts{
+        height: 500px;
+        }
+    .four-parts div{
+        width: 50%;
+        height: 50%;
+        padding-left: 4%;
+        padding-right: 4%;
+          }
+        
+}
+@media only screen and (max-width:500px){
+    .four-parts{
+        height: 800px;
+        }
+    .four-parts div{
+        width: 100%;
+        height: 200px;
+        padding-left: 6%;
+        padding-right: 6%;
+          }
+         
+}
+.four-parts div img{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+}
+.four-parts p{
+margin: 0%;
+text-align: justify;
+}
+.city{
+    width: 100%;
+    height: 930px;
+    /* border: 1px solid black; */
+}
+.container{
+    width: 25%;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    /* border: 1px solid black; */
+    position: relative;
+    
+}
+ .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height:100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.7;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size:30px;
+    padding: 16px 32px;
+  }
+@media only screen and (max-width:992px){
+    .city{
+        height: 1240px;
+        
+    }
+    .container{
+        width: 33.33333%;
+         margin-top: 10px; 
+    }
+}
+@media only screen and (max-width:768px){
+    .city{
+        height: 1560px;
+        }
+    .container{
+        width: 50%;
+        margin-top: 10px;
+        height: 250px;
+          }
+          .hide{
+              display: none;
+          }
+}
+@media only screen and (max-width:500px){
+    .city{
+        height: 2520px;
+        }
+    .container{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+        height: 200px;
+          }
+}
+.types{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+.types div{
+    width: 25%;
+    height: 150px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    float: left; 
+    overflow: hidden; 
+}
+.types div img{
+    width: 100%;
+    height: 100%;
+   transform: scale(1);
+}
+.types div img:hover{
+    transform: scale(1.3);
+    transition: transform 1s;
+}
+@media only screen and (max-width:768px){
+    .types{
+        height:640px
+    }
+    .types div{
+        width: 50%;
+        height: 150px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:500px){
+    .types{
+        height:1280px
+    }
+    .types div{
+        width: 76%;
+        margin-top: 10px;
+        margin-left: 12%;
+        height: 150px;
+    }
+}
+.reservation{
+    width: 100%;
+    height: 450px;
+     margin: 2% 0%;
+    /* border: 1px solid black; */
+}
+.table{
+    width: 40%;
+    height: 450px;
+    /* border: 2px solid #12a8ff; */
+    margin-left: 5%;
+    float: left;
+    overflow: hidden;
+}
+.table img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);    
+}
+.table img:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.RESERVATIONS_FORM{
+    width: 45%;
+    height: 450px;
+    /* border: 2px solid #12a8ff; */
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.RESERVATIONS_FORM p{
+    padding-left: 5%;
+    text-align: justify;
+}
+input{
+    width: 40%;
+    margin-left: 5%;
+    padding: 10px;
+    border: 1px solid #12a8ff;
+    margin-top: 2%;
+}
+select{
+    width: 86%;
+    margin-left: 5%;
+    border: 1px solid #12a8ff;
+    padding: 10px;
+    margin-top: 2%;
+}
+.remarks{
+    width: 86%;
+    margin-left: 5%;
+    border: 1px solid #12a8ff; 
+    padding: 10px;
+    margin-top: 2%;
+}
+button{
+    margin-left: 5%;
+    padding: 10px;
+    background-color: #12a8ff;
+    font-weight: 500;
+}
+@media only screen and (max-width:992px){
+    .reservation{
+        height: 750px;
+    }
+    .table{
+        height: 300px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .RESERVATIONS_FORM{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    .reservation{
+        height: 800px;
+    }
+    .table{
+        height: 300px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .RESERVATIONS_FORM{
+        height: 500px;
+        width: 100%;
+    }
+}
+.footer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+    

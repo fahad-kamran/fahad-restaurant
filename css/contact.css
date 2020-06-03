@@ -1,0 +1,50 @@
+
+.contact{
+    color: white !important;
+}
+h1{
+    color: #12a8ff  !important;
+    background-color: white !important;
+    text-align: center;
+}
+.line{
+    width: 30%;
+margin-left: 35%;
+    height: 100px;
+}
+@media only screen and (max-width:768px){
+    .line{
+        width: 50%;
+        margin-left: 25%;
+        height: 80px;
+    }  
+}
+input{
+    width: 35%;
+    margin-left: 10%;
+    border: 2px solid #12a8ff;
+    margin-top: 2%;
+    padding: 10px;
+}
+.remarks{
+    width: 35%;
+    margin-left: 10%;
+    border: 2px solid #12a8ff;
+    margin-top: 2%;
+     padding: 20px; 
+}
+@media only screen and (max-width:900px){
+    input{
+        width: 80%;
+    }
+    .remarks{
+        width: 80%;
+    }
+}
+button{
+    margin-left: 10%;
+    background-color: #12a8ff;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+}
